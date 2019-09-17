@@ -1,7 +1,7 @@
 class River
 
   attr_reader :name, :fish_amount
-
+  
   def initialize(name, cash)
     @name = name
     @fish = []
@@ -16,7 +16,7 @@ class River
   end
 
   def add_fish(fish)
-@fish.push(fish)
+    @fish.push(fish)
   end
 
 

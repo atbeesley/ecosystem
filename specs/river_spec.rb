@@ -20,9 +20,8 @@ class RiverTest < MiniTest::Test
 
   def test_add_fish_to_river
     @river.add_fish(@fish)
-    assert_equal(5000, @river.fish_amount())
+    assert_equal( @river.fish_amount())
   end
-
 
 
 end
